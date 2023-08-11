@@ -1,0 +1,53 @@
+.container {
+    background-image: url('https://www.kennerblick.net/grafik/h/himmel11.gif');
+    background-size: cover;
+    width: 1255px;
+    height: 800px; 
+    font-size: 26px;
+    padding: 30px;
+  
+}
+.weatherForm{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 26px;
+}
+.text{
+    color:blue;
+    display:flex;
+    justify-content: center; 
+    
+    font-size: 40px;
+      
+}
+.input {
+    width: 200px;
+    height: 30px;
+   margin: 40px 0 0 0;
+   background-color: lightblue;
+   border: none;
+   border-radius: 10px;
+   font-size: 18px;
+   color: blue;
+   
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: center;
+}
+.btn {
+    width: 150px;
+    height: 35px;
+    margin: 40px 0 0 5px;
+    background-color: lightblue;
+    border:none;
+    border-radius: 10px;
+    color: blue;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}

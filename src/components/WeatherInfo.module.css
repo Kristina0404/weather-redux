@@ -1,0 +1,62 @@
+.box{
+  background-color: lightblue;
+  height: 550px;
+}
+
+
+.container {
+  width: 667px;
+  height: 450px;
+  background-image: url("https://media0.giphy.com/avatars/segensbuero/sB6AMJUgV39O.gif");
+  background-size: cover;
+  position: relative;
+  left: 300px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+.weatherContainer {
+  
+  padding: 20px;
+  position: absolute;
+  
+}
+
+.link{
+  font-size: 18px;
+  margin-top: 50px;
+}
+.city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(58, 7, 106);
+  font-size: 46px;
+  font-weight: bold;
+}
+.temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(58, 7, 106);
+  font-size: 40px;
+  font-weight: bold;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(58, 7, 106);
+  font-size: 40px;
+  font-weight: bold;
+}
+.otherDates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
